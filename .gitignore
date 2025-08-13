@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Environment and sensitive files
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+*.p12
+*.jks
+secrets.json
+secrets.yaml
+secrets.yml
